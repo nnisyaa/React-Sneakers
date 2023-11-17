@@ -6,11 +6,12 @@ body{
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+    max-width: 1080px;
+    margin : 50px auto;
 }
 .header-left{
     display: flex;
     flex-direction:row;
-
 }
 .header-logo{
     margin-top: 43px;
@@ -19,16 +20,61 @@ body{
     height: 40px;
 }
 .header-info{
-    margin-top: 43px;
     margin-left: 16px;
     font-size: 10px;
     font-weight: 700;
     font-family: Inter;
-
 }
 .header-name{
-
+    margin-top: 43px;
 }
 .header-text{
+    margin-top: -10px;
+    color: #9D9D9D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+ul{
+    list-style:none ;
+    display: flex;
+    color: #5C5C5C;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+header{
+    display: flex;
 
+}
+.shopping-backet{
+    margin-left: 392px;
+    width: 18px;
+    height: 17.182px;
+    margin-top: 36px;
+}
+.bascket-text{
+    margin-left: 10px;
+    color: #5C5C5C;
+}
+.heart{
+    margin-left: 32px;
+    width: 18.11px;
+    height: 16.299px;
+    margin-top: 36px;
+}
+.heart-text{
+    margin-left: 7.89px;
+}
+.profile-picture{
+    margin-left: 32px;
+    width: 18px;
+    height: 18px;
+    margin-top: 34px;
+}
+.profile-text{
+    margin-left: 8px;
+    
 }
