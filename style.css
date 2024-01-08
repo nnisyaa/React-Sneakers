@@ -76,5 +76,72 @@ header{
 }
 .profile-text{
     margin-left: 8px;
-    
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+}
+.h1{
+    margin-top: 39xp;
+    margin-left: 60px;
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.sneakers{
+    width: 210px;
+    height: 260px;
+    border-radius: 40px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.heartSneakers{
+    width: 32px;
+    height: 32px;
+    margin-top: 29px;
+    margin-left: 30px;
+    flex-shrink: 0;
+    position : absolute;
+}
+.sneakerspic{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.sneakersText{
+    margin-top: 15px;
+    margin-left: 31px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 150px;
+}
+.sneakersPrice{
+    color: #BDBDBD;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.addSneakers{
+    margin-left: 90px;
+}
+.pr{
+    display: flex;
+    flex-direction: row;
+}
+.priceAmount{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 30px;
+    position: relative;
+    margin-top: -10px;
 }
