@@ -130,6 +130,8 @@ header{
 }
 .addSneakers{
     margin-left: 90px;
+    width: 80px;
+    height: 32px;
 }
 .pr{
     display: flex;
@@ -168,10 +170,11 @@ header{
     background: linear-gradient(180deg, #89F09C 0%, #3CC755 100%);
     margin-left: 90px;
 }
-.addSneakers{
+.checkMark{
     width: 10.667px;
     height: 10.667px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .sneakersChoosen{
     width: 210px;
@@ -206,4 +209,12 @@ header{
 .carousel-item img {
     max-height: 400px;
     object-fit: cover;
+}
+.container1{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+    max-width: 1140px;
+    margin : 50px auto;
+    height: 1105px;
 }  
